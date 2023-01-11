@@ -7,7 +7,7 @@
 */
 
 function rectangleAreaFromCoords (points) {
-  [A,B,C,D] = points
+   points = [A,B,C,D]
   return (A.x - B.x)*(C.y - D.y)
 }
 

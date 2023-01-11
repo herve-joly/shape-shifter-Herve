@@ -11,18 +11,18 @@
 function getRectangleCorners (a, b, point) {
   // get the bottom right point
   const point1 = {
-    x: point.x+a,
+    x: point.x + a,
     y: point.y
   }
   // then the top right
   const point2 = {
-    x: point1,
+    x: point.x + a,
     y: point.y + b
   }
   // then the top left
   const point3 = {
-    x: point2.x,
-    y: point1 - b
+    x: point.x,
+    y: point.y + b
   }
   // and return them as an array of points
   return [point, point1, point2, point3]
