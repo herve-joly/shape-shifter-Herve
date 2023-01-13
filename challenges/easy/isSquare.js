@@ -5,12 +5,12 @@
  * @returns {boolean}
  */
 
-function isSquare (a, b) {
+function isSquare(a, b) {
   if (a == b) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
-module.exports = isSquare
+module.exports = isSquare;
